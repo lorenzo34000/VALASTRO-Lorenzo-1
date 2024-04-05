@@ -1,0 +1,138 @@
+body, html {
+  margin: 100;
+  padding: 100;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px; 
+  margin: 0 auto;
+  padding: 20px; 
+  text-align: center; 
+}
+
+.profile, .eyes, .yo, .ok {
+  max-width: 600px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  text-align: left; 
+}
+
+.profile, .eyes, .yo, .ok {
+  margin-bottom: 20px; 
+  border: 2px solid #ccc;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+  transition: transform 0.3s ease; 
+}
+
+.profile:hover, .eyes:hover, .yo:hover, .ok:hover {
+  transform: scale(1.1); 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #E0F5FF; 
+  font-family: Arial, sans-serif; 
+}
+
+.profile, .eyes, .yo, .ok {
+  max-width: 600px; 
+  margin: 0 auto; 
+  padding: 20px;
+  text-align: left; 
+  background-color: #D9F0FF; 
+  border-radius: 8px; 
+  margin-bottom: 20px;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px; /* Marges plus larges autour de la page */
+}
+
+.profile,
+.eyes,
+.yo,
+.ok {
+    max-width: 100%;
+    padding: 0 15px;
+    margin-bottom: 40px; /* Marge plus grande entre les sections */
+}
+
+.profile img {
+    max-width: 180px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Définition de styles pour les écrans de taille moyenne et supérieure */
+@media only screen and (min-width: 768px) {
+    .profile,
+    .eyes,
+    .yo,
+    .ok {
+        max-width: 600px;
+        margin-bottom: 50px; /* Marge encore plus grande entre les sections pour les grands écrans */
+    }
+}
+
+/* Définition de styles pour les écrans de petite taille */
+@media only screen and (max-width: 480px) {
+    body {
+        margin: 20px; /* Marges réduites pour les petits écrans */
+    }
+    .profile,
+    .eyes,
+    .yo,
+    .ok {
+        margin-bottom: 30px; /* Marge réduite entre les sections pour les petits écrans */
+    }
+}
+
+
+
+.profile {
+    text-align: center; /* Centrer le contenu */
+    margin: 40px auto; /* Ajouter de la marge autour du div */
+    padding-top: 20px; /* Ajouter de la marge au-dessus du contenu */
+    border: 1px solid #ccc; /* Ajouter une bordure */
+}
+
+.ok {
+    margin: 40px auto; /* Ajouter de la marge autour du div */
+    padding-top: 20px; /* Ajouter de la marge au-dessus du contenu */
+    border: 1px solid #ccc; /* Ajouter une bordure */
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 20px; /* Ajouter de la marge en bas de l'image */
+    margin-top: -20px; /* Compensation pour l'espacement ajouté au-dessus du div */
+}
+
+.profile {
+    text-align: center; /* Centrer le contenu */
+    margin: 20px; /* Ajouter de la marge autour du div */
+    padding-top: 20px; /* Ajouter de la marge au-dessus du contenu */
+    border: 1px solid #ccc; /* Ajouter une bordure */
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 20px; /* Ajouter de la marge en bas de l'image */
+    margin-top: 20px; /* Ajouter de la marge au-dessus de l'image */
+}
